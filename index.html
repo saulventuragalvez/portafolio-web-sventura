@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Saúl Ventura Gálvez</title>
+    <meta name="title" content="Portafolio">
+    <meta name="title" content="Este es un portafolio web">
+
+    <!-- favicon -->
+    <link rel="shortcut icon" href="favicon.svg" type="image/svg+xml">
+
+    <!-- google font link -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+    <!-- css links -->
+    <link rel="stylesheet" href="./assets/css/style.css">
+
+    <!-- preload images -->
+    <link rel="preload" as="image" href="./assets/images/hero-banner.png">
+    <link rel="preload" as="image" href="./assets/images/pattern-2.svg">
+    <link rel="preload" as="image" href="./assets/images/pattern-3.svg">
+
+</head>
+<body>
+
+    <!-- HEADER -->
+
+    <header class="header" data-header>
+        <div class="container">
+            <a href="#" class="logo">
+                <img src="./assets/images/G5.png" width="119" height="37" alt="Wren logo">
+                <span>hola</span>
+            </a>
+
+            <nav class="navbar" data-navbar>
+
+                <div class="navbar-top">
+                    <a href="#" class="logo">
+                        <img src="./assets/images/G5.png" width="119" height="37" alt="Wren logo">
+                    </a>
+                    <button class="nav-close-btn" aria-label="close menu" data-nav-toggler>
+                        <ion-icon name="close-outline" aria-hidden="true"></ion-icon>
+                    </button>
+                </div>
+
+                <ul class="navbarlist">
+
+                    <li>
+                        <a href="#home" class="navbar-link hover-1" data-nav-toggler>Home</a>
+                    </li>
+
+                    <li>
+                        <a href="#topics" class="navbar-link hover-1" data-nav-toggler>Topics</a>
+                    </li>
+
+                    <li>
+                        <a href="#featured" class="navbar-link hover-1" data-nav-toggler>Featured Post</a>
+                    </li>
+
+                    <li>
+                        <a href="#recent" class="navbar-link hover-1" data-nav-toggler>Recent Post</a>
+                    </li>
+
+                    <li>
+                        <a href="#" class="navbar-link hover-1" data-nav-toggler>Contact</a>
+                    </li>
+
+                </ul>
+
+                <div class="navbar-bottom">
+
+                    <div class="profile-card">
+                        <img src="./assets/images/author-1.png" width="48" height="48" alt="Steven" class="profile-banner">
+
+                        <div>
+                            <p class="card-title">Hello Steven!</p>
+                            <p class="card-sutitle">You have 3 new messages</p>
+                        </div>
+                    </div>
+
+                    <ul class="link-list">
+                        
+                        <li>
+                            <a href="#" class="navbar-bottom hover-1">Profile</a>
+                        </li>
+
+                        <li>
+                            <a href="#" class="navbar-bottom hover-1">Articles Saved</a>
+                        </li>
+
+                        <li>
+                            <a href="#" class="navbar-bottom hover-1">Add New Post</a>
+                        </li>
+
+                        <li>
+                            <a href="#" class="navbar-bottom hover-1">My likes</a>
+                        </li>
+
+                        <li>
+                            <a href="#" class="navbar-bottom hover-1">Account Settings</a>
+                        </li>
+
+                        <li>
+                            <a href="#" class="navbar-bottom hover-1">Sign Out</a>
+                        </li>
+
+                    </ul>
+
+                </div>
+
+                <p class="copyright-text">
+                    Copyright 2023 © VA - Portafolio Web.
+                </p>
+
+            </nav>
+
+            <a href="#" class="btn btn-primary">Suscrite!!!</a>
+
+            <button class="nav-open-btn" aria-label="open menu" data-nav-toggler>
+                <ion-icon name="menu-outline" aria-hidden="true"></ion-icon>
+            </button>
+
+        </div>
+    </header>
+    
+    <main>
+        <article>
+
+            <!-- HERO -->
+            <section class="hero" id="home" aria-label="home">
+                <div class="container">
+                    <div class="hero-content">
+                        <p class="hero-subtitle">Hola a todos!</p>
+                        <h1 class="headline headline-1 section-title">
+                            Soy <span class="span">Saúl Ventura</span>
+                        </h1>
+
+                        <p class="hero-text">
+                            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Distinctio sunt nam ab, temporibus error commodi quo laudantium animi alias blanditiis unde vitae illum, dolorum, nesciunt quaerat doloremque esse in beatae!
+                        </p>
+
+                        <div class="input-wrapper">
+                            <input type="email" name="email_address" placeholder="Escriba su email" required class="input-field">
+                            <button class="btn btn-secondary">
+                                <span class="span">Suscribete!</span>
+
+                                <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
+                            </button>
+                        </div>
+
+                        <div class="hero-banner">
+                            <img src="./assets/images/perfil.png" width="327" height="490" alt="Saúl Ventura" class="w-100">
+                            <img src="./assets/images/pattern-2.svg" width="27" height="26" alt="shape" class="shape shape-1">
+                            <img src="./assets/images/pattern-3.svg" width="27" height="26" alt="shape" class="shape shape-2">
+                        </div>
+
+                    </div>
+                </div>
+            </section>
+
+
+        </article>
+    </main>
+
+
+
+    <!-- custom js links -->
+    <script src="./assets/js/script.js"></script>
+
+    <!-- ionicon link -->
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+</html>
